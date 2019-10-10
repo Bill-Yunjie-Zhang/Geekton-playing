@@ -1,0 +1,91 @@
+html,
+body,
+#wrapper {
+    padding: 0;
+    margin: 0;
+    background-color: #303039;
+}
+
+.navbar {
+    background-color: azure !important;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+#city-search {
+    display: flex;
+    margin: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+#city-search > * {
+    width: auto;
+}
+
+.form-control {
+    margin-right: 1rem;
+}
+
+#dataArea {
+    width: 100%;
+    background-color: transparent;
+    padding: 0;
+}
+
+.day-title {
+    margin-top: 1rem;
+}
+
+.col {
+    padding: 10px !important;
+}
+
+.row {
+    width: 100%;
+    padding: 0.6rem;
+    margin: 0 !important;
+}
+
+.card {
+    background-color: azure;
+}
+
+.days {
+    color: azure;
+    text-align: center;
+}
+
+.data-row {
+    text-align: left;
+    color: black;
+    border-bottom: #303039 solid 1px;
+}
+
+.data-row > h5 {
+    font-weight: bolder;
+    color: black;
+    display: inline;
+}
+
+.data-title {
+    font-weight: bold;
+    margin: auto;
+}
+
+.data-text {
+    margin: auto;
+    float: right;
+}
+
+.weather-time {
+    text-align: center;
+}
+
+.weather-icon {
+    width: 3rem;
+}

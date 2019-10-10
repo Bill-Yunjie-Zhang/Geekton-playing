@@ -1,0 +1,125 @@
+body {
+    background-color: #EDEDED
+}
+
+.bg-dark{
+    background-color: #333333!important
+}
+
+.text-dark,
+.text-dark:hover,
+.text-dark:active{
+    color: #EDEDED!important;
+    font-size: 20px;
+    margin-left: 1em;
+    margin-right: 1em
+}
+
+#content{
+  width: 1000px;
+  margin: auto;
+}
+
+#wrapper{
+  width: 1000px;
+  margin: auto;
+  padding-top: 100px
+}
+
+#side-menu{
+  height: 88%;
+  width: 300px;
+  border-radius: 10px;
+  position: fixed;
+  left: -299.9px;
+  top: 80px;
+  background-color: #242424;
+  z-index: 99;
+  box-shadow: 0px 0px 20px #242424;
+}
+
+#side-menu:hover{
+  left: -30px;
+  transition: all 1s
+}
+
+.picture{
+  width: 380px;
+  height: 280px
+}
+
+.align-middle {
+	margin: auto; 
+	flex-direction: column;
+	align-items: center;
+	-webkit-box-align: center;
+	align-content: center;
+	vertical-align: middle
+}
+
+#index{
+  margin: 40px;
+  margin-top: 10px;
+  width: 230px;
+  text-align: center
+}
+#index ul{
+  list-style-type: none;
+  padding:0px;
+  margin-top: 15px;
+  font-size: 15px
+}
+#index a,
+#index a:hover,
+#index a:active{
+  color: #ffffff;
+}
+#index h4{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 2px solid #8f8f8f;
+}
+
+#division{
+  margin-top: 100px;
+  margin-bottom: 100px
+}
+#subdivision{
+  padding-top: 80px;
+  padding-bottom: 80px
+}
+
+#our-goals{
+  background-color: #D8D8D8;
+  padding: 20px;
+  border-radius: 20px
+}
+
+#title-our-goals{
+  text-align: center; 
+  padding-top: 80px;
+  font-size: 60px
+}
+
+#title-founders-letter{
+  text-align: center; 
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 60px 
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+#the-founders-letter{
+  width: 850px;
+  margin: auto;
+}
+#the-founders-letter p{
+  text-decoration: underline
+}
+
+footer{
+  padding-top: 100px
+}
